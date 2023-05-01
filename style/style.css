@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.baru {
+    font-family: 'EB Garamond', serif;
+    font-size: 21px;
+}
+
+nav a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.responsive li a,
+.responsive2 {
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+.fa-bell {
+    color: orangered;
+}
+
+.nama {
+    color: black;
+}
+
+.promosi {
+    border: 1px solid gray;
+    box-shadow: 5px 10px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.profil2 {
+    display: none;
+}
+
+.jangan {
+    display: none;
+}
+
+
+tbody td {
+    color: gray;
+}
+
+tbody tr:hover{
+    background-color: white;
+}
+
+tbody button:hover{
+    background-color: orangered;
+}
+
+tbody button:hover a{
+    color:white;
+    text-decoration: none;
+}
+
+tbody button{
+    background-color: gray;
+    transition: 0.3s;
+}
+tbody button a{
+    transition: 0.3s;
+    color: gray;
+}
+
+thead {
+    background-color: rgb(75, 47, 177);
+    color: white;
+}
+
+.data {
+    background-color: rgb(241, 241, 241);
+}
+
+.box {
+    display: none;
+}
+
+
+@media only screen and (min-width: 991.98px) {
+    .responsive {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 576px) {
+
+    .ganti i,
+    .ganti a {
+        display: none;
+    }
+
+    .profil2 {
+        display: flex;
+    }
+}
